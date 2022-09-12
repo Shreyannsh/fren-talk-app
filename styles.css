@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body{
+    font-family: 'Combo', cursive;
+    background-image: url("/images/scale\ \(3\).jpg");
+    background-size:80rem;
+
+}
+.navigation{
+    display: block;
+    background-color: rgb(248, 248, 10);
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+    margin:0rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.input-text{
+    width:40%;
+    height: 100px;
+    display: block;
+    border: groove;
+    margin:auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: transparent;
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+}
+
+.output-text{
+    width:40%;
+    height: 70px;
+    display: block;
+    border: groove;
+    margin:auto;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:purple;
+    font-size:x-large;
+    font-weight: 900;;
+}
+
+.button{
+    margin:auto;
+    display: block;
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(255, 179, 1);
+    font-family: 'Lucida Sans',  sans-serif;
+    font-size: large;
+}
+
+
+.footer{
+    background-color: rgb(248, 248, 10);
+    margin-top: 2rem;
+}
+
+.footer ,h1{
+    padding-bottom:0rem;
+}
+
+.text3{
+color: rgba(249, 241, 0, 0.989);
+font-size: 1.5rem;
+font-weight: 900;
+text-align: center;
+}
+
+p{
+    font-size: 2rem;
+}

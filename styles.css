@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Permanent+Marker&family=Satisfy&display=swap');
 
 body{
-    font-family: 'Combo', cursive;
-    background-image: url("/images/scale\ \(3\).jpg");
-    background-size:1365px 635px;
-    margin: 0% auto;
+font-family:'Courgette', cursive;
+margin : 0 auto;
+background-color: rgba(255, 196, 20, 0.659);
 }
+
+:root{
+    --primary-color:  orangered;
+}
+
 .navigation{
 
-    background-color: rgb(248, 248, 10);
+    background-color:var(--primary-color);
     text-align: center;
     font-style: italic;
     font-weight: 900;
@@ -26,7 +30,7 @@ body{
     background: transparent;
     font-size: x-large;
     font-weight: 900;
-    color: white;
+    color: black;
 }
 
 .output-text{
@@ -48,7 +52,7 @@ body{
     display: block;
     height: 3rem;
     width: 6rem;
-    background-color: rgb(255, 179, 1);
+    background-color: orangered;
     font-family: 'Lucida Sans',  sans-serif;
     font-size: large;
 }
@@ -57,10 +61,10 @@ body{
 }
 
 .footer{
-    background-color: rgb(248, 248, 10);
+    background-color:var(--primary-color);
     margin-top:2rem;
-    margin-bottom: 0rem; 
-    padding: 0rem 20rem;                  
+    padding: 0rem 20rem;  
+    bottom: 0;               
 
 }
 

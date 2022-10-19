@@ -6,6 +6,7 @@ var userUrl = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 function readUrl(input){
     return userUrl + "?" + "text=" + input;
+    console.log(userUrl);
 };
 
 function catchError(error){

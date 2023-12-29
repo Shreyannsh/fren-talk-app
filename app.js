@@ -4,27 +4,25 @@ var outputText = document.querySelector("#output-text");
 
 var userUrl = "https://api.funtranslations.com/translate/ferb-latin.json";
 
-function readUrl(input){
-    return userUrl + "?" + "text=" + input;
-    console.log(userUrl);
-};
+function readUrl(input) {
+  return userUrl + "?" + "text=" + input;
+  console.log(userUrl);
+}
 
-function catchError(error){
-    console.log("Error occured", error);
-    alert("Something went wrong. Please try in sometime.");
-};
+function catchError(error) {
+  console.log("Error occured", error);
+  alert("Something went wrong. Please try in sometime.");
+}
 
-function clickHandler(){
-    var userinput = inputText.value;
-    fetch(readUrl(userinput))
-    .then (response => response.json())
-    .then( json => {
-        var translatedText = json.contents.translated;
-        outputText.innerText = translatedText;
+function clickHandler() {
+  var userinput = inputText.value;
+  fetch(readUrl(userinput))
+    .then((response) => response.json())
+    .then((json) => {
+      var translatedText = json.contents.translated;
+      outputText.innerText = translatedText;
     })
-    .catch(catchError)
+    .catch(catchError);
+}
 
-
-};
-
-btnTranslate.addEventListener("click",clickHandler);
+btnTranslate.addEventListener("click", clickHandler);
